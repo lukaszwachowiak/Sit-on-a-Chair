@@ -83,6 +83,11 @@ header nav ul li.big_list {
     color: #00c5a0;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
 .section_one_flexbox article h1 span {
     color: #00c5a0;
 }
