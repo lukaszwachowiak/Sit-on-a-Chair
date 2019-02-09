@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 }
 
-/* header/navigation */
+/* HEADER/NAVIGATION */
 
 header {
     width: 100%;
@@ -51,17 +51,20 @@ header nav ul li.big_list {
     list-style-type: none;
     margin-left: 34px;
     font-weight: 600;
-    /*display: block;*/
-    /*float: left;*/
     align-items: center;
     height: 20px;
 }
 
-.small_list {
+/* dropdown menu */
+
+.small_list:hover {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
-    padding: 10px;
     list-style-type: none;
     background-color: black;
 }
+
+.small_list {
+    display: none;
+}
+
