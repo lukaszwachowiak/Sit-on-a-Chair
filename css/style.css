@@ -3,5 +3,10 @@
     padding: 0;
 }
 
+body {
+    /*dodać Raleway do fontów*/
+    font-family: Tahoma, Arial, sans-serif;
+}
+
 /* header/navigation */
 
