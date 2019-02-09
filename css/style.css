@@ -8,10 +8,60 @@ body {
     font-family: Tahoma, Arial, sans-serif;
 }
 
+.container {
+    width: 1064px;
+    margin: 0 auto;
+}
+
 /* header/navigation */
 
 header {
     width: 100%;
     background-color: black;
     height: 41px;
+}
+
+header nav {
+    color: white;
+    font-size: 15px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+}
+
+header nav .logo span {
+    color: #00c5a0;
+    font-weight: 900;
+}
+
+.logo {
+    width: 50%;
+}
+
+.navigation {
+    margin-right: 6px;
+    /*float: right;*/
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header nav ul li.big_list {
+    list-style-type: none;
+    margin-left: 34px;
+    font-weight: 600;
+    /*display: block;*/
+    /*float: left;*/
+    align-items: center;
+    height: 20px;
+}
+
+.small_list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    list-style-type: none;
+    background-color: black;
 }
