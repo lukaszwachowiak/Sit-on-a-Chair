@@ -5,7 +5,7 @@
 
 body {
     /*dodać Raleway do fontów*/
-    font-family: Tahoma, Arial, sans-serif;
+    font-family: Tahoma, sans-serif;
 }
 
 .container {
@@ -40,7 +40,6 @@ header nav .logo span {
 
 .navigation {
     margin-right: 6px;
-    /*float: right;*/
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -62,9 +61,36 @@ header nav ul li.big_list {
     flex-direction: column;
     list-style-type: none;
     background-color: black;
+    line-height: 10px;
 }
 
 .small_list {
     display: none;
 }
 
+/* SECTION */
+
+.section_one_flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link_navigation {
+    text-decoration: none;
+    font-size: 70px;
+    color: #00c5a0;
+}
+
+.section_one_flexbox article h1 span {
+    color: #00c5a0;
+}
+
+.button {
+    color: white;
+    background-color: #00c5a0;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
