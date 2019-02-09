@@ -10,3 +10,8 @@ body {
 
 /* header/navigation */
 
+header {
+    width: 100%;
+    background-color: black;
+    height: 41px;
+}
